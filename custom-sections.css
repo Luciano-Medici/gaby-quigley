@@ -1,8 +1,16 @@
 /* Ejemplo: puedes incluir esto en un <style> dentro tu <head> o en una hoja aparte */
 #inicio {
-    background-color: var(--color-inicio-bg);
-    color: var(--color-inicio-text);
-  }
+  background-color: var(--color-inicio-bg);
+}
+
+#inicio h1 {
+  background: linear-gradient(90deg, var(--color-inicio-text) 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: var(--color-inicio-text); /* Fallback */
+}
+
   #inicio h1, #inicio h2, #inicio h3 {
     font-family: var(--font-title);
   }
@@ -53,6 +61,7 @@
     font-family: var(--font-text);
   }
   .color {
+    box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.56);
     background-color: var(--color-btn-bg) !important;
     color: var(--color-btn-text) !important;
     transition: background-color 0.2s, color 0.2s;

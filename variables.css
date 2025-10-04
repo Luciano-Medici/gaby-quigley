@@ -1,7 +1,7 @@
 :root {
     /* Hero */
-    --color-inicio-bg: #1a202c; /* Fondo del hero */
-    --color-inicio-text: #ffffff; /* Color del título en el hero */
+    --color-inicio-bg: #1a237e; /* Fondo del hero */
+    --color-inicio-text: #ffd700;/* Color del título en el hero */
     --font-title: 'Kanit', 'Arial Black', sans-serif; /* Fuente para títulos */
 
     /* Tipografía texto general */
@@ -28,7 +28,7 @@
     --color-testimonios-text: #222222; /* Texto en la sección de testimonios */
 
     /* Botones  */
-    --color-btn-bg: #8B5CF6;        /* Color principal del botón */
-    --color-btn-bg-hover: #7C3AED;  /* Color al pasar el mouse */
+    --color-btn-bg: #28a745;        /* Color principal del botón */
+    --color-btn-bg-hover: #218838;  /* Color al pasar el mouse */
     --color-btn-text: #ffffff;      /* Color de texto */
   }
